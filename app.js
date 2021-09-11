@@ -4,6 +4,8 @@ const cors = require("cors");
 
 const app = express();
 
+require("./config/db");
+
 const poll = require("./routes/poll");
 
 // Set public folder
